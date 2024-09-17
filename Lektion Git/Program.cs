@@ -8,6 +8,7 @@
             Console.WriteLine("Chose a nickname: ");
             string userNick = Console.ReadLine();
             Console.WriteLine($"Greetings, oh exalted {userNick}");
+            Console.WriteLine("hello");
         }
     }
 }
