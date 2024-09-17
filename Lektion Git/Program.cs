@@ -12,8 +12,15 @@
 
             for (int i = 0; i < 10; i++)
             {
+                if (i == 0)
+                {
+                    Console.WriteLine("0-9 skrivs ut nu");
+                }
                 Console.WriteLine(i);
+                
             }
+
+
         }
     }
 }
